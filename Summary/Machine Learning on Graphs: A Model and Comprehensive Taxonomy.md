@@ -19,7 +19,7 @@ GRL falls into three categories:
 
    
 ## Main idea
-Provide a toxonomy for GRL, provide a bring btw three categories of GRL: network embedding, graph regularization and graph neural networks; and propose "GRAPHEDM framework", which generalizes popular algorithms for semi-supervised and unsupervised learning of graph representations into a single consistent approach
+Provide a toxonomy for GRL, a bridge btw three categories of GRL: network embedding, graph regularization and graph neural networks; and propose "GRAPHEDM framework", which generalizes popular algorithms for semi-supervised and unsupervised learning of graph representations into a single consistent approach
 
 
 
