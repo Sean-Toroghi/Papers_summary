@@ -9,8 +9,17 @@ Notions:
 - __NLP__: natural language pocessing
 - __AL__: audio learning
 - __RS__: recommender systems
+- __TR__: transformers
 
 
+
+
+
+<h2>List of papers</h2>
+
+__Image classification__
+- Touvran et. al. "Training data-efficient image transformers & distillation through attention" 2021 __DL - CV- TR__ [link](https://arxiv.org/abs/2012.12877) [Summary]()
+- El-Nouby et. al. "XCiT: Cross-Covariance Image Transformers" 2021 __DL - CV - TR__ [link](https://arxiv.org/abs/2106.09681) [Summary]()
 
 
 - Phothilimthana P. et. al. "TpuGraphs: A Performance Prediction Dataset on Large Tensor Computational Graphs" 2023 [link](https://arxiv.org/abs/2308.13490)
