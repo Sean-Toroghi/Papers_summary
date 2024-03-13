@@ -26,7 +26,7 @@ Inversion method was implemented and compared with the following 3 methods:
 - sample inverter
 __Prompt reconstruction__
 
-Probability of each of next possible token in the vocabulary :$v = p(x_{T +1} | x_1, ..., x_T ; \theta), where\:  v \in \Delta^{|V|-1}$
+Probability of each of next possible token in the vocabulary :$v = p(x_{T +1} | x_1, ..., x_T ; \theta), where  v \in \Delta^{|V|-1}$
 
 __Modeling options__ considering following levels of access
 1. full distributional access,
