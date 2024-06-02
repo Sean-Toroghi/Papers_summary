@@ -2,7 +2,7 @@
 
 Papers:
 1. [2022 Audio Self-supervised Learning: A Survey](#p1) - [link](https://github.com/Sean-Toroghi/Papers_summary/blob/f91498a949d4977219f5fd09ce517bf6f695e9d4/self-supervised%20learning/2022%20Audio%20Self-supervised%20Learning---%20A%20Survey.pdf)
-2. [2022 data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](#p2) - [link]()
+2. [2022 data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](#p2) - [link](https://arxiv.org/abs/2202.03555)
 3. [2020 Bootstrap Your Own Latent A New Approach to Self-Supervised Learning](#p3) - [link]()
 4. [2021 BYOL for Audio: Self-Supervised Learning for General-Purpose Audio Representation](#p4) - [link]()
 5. [2022 BYOL for Audio: Exploring Pre-trainedGeneral-purpose Audio Representations](#p5) - [link]()
@@ -20,7 +20,7 @@ Papers:
 
 
 ---
-<a id='p2'> # Adata2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language</a>
+# <a id='p2'>data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language</a>
 
 
 
