@@ -1,7 +1,7 @@
 # Language models
 
 
-1. [2022 On the Use of BERT for Automated Essay Scoring: Joint Learning of Multi-Scale Essay Representation](#p1) - [link]()
+1. [2022 On the Use of BERT for Automated Essay Scoring: Joint Learning of Multi-Scale Essay Representation](#p1) - [link](https://github.com/Sean-Toroghi/Papers_summary/blob/6008c868bf55864eb828396e94fbbad76fbbe243/language%20models/2022%20On%20the%20Use%20of%20BERT%20for%20Automated%20Essay%20Scoring.pdf)
 2. []() - [link]()
 3. []() - [link]()
  
