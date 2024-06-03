@@ -8,7 +8,7 @@
 ---
 
 
-# <a id='p1'> #  On the Use of BERT for Automated Essay Scoring: Joint Learning of Multi-Scale Essay Representation</a>
+<a id='p1'> #  On the Use of BERT for Automated Essay Scoring: Joint Learning of Multi-Scale Essay Representation</a>
 
 ## Main idea
 To improve BERT capability for scoring an essay, employ multiscale essay representation for BERT that can be jointly learned (ensemble). Also, employ multiple losses and transformer learning fro m out-of-domain essays.
