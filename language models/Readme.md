@@ -182,4 +182,5 @@ __Methods used in the comparison__
 ## Usefull information
 
  __Longformer__ (Beltagy et al., 2020) is an extension for transformers with an attention mechanism that scales linearly with sequence length, making it easy to process long documents.
+ 
 ----
