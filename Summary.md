@@ -12,7 +12,7 @@ __Topic 1 - [RNA structure](#rna)__
 # <a name = 'rna'>[RNA structure](#up)</a>
 The 3d-structure of RNA defines the functionality of RNA. There are a range of methods to explore and idenitify this structure, including experimental (X-ray crystallography, nuclear magnetic resonance spectroscopy, and cryo-electron microscopy),  computational models. The computational methods are divided into three categories, based on their objective tasks:
 1. predicting 3D structure of RNA - three broad methods: knowledge-, physics-, and deep learning- based.
-2. identify near-native structures - some type of scoring or energy function model to evaluate structures and idntify most probable ones.
+2. identify near-native structures - some type of scoring or energy function model to evaluate structures and idntify most probable ones. Methods are generally categorized into following four: physics-based energy methods, knowledge-based statistical methods, deep-learning scoring mehods, and clsutering methods.  
 3. refining identified near-native structures
 
 ## <a name = 'rna_1'>[Paper 1 - RNA3DStructure Prediction: Progress and Perspective](#up)</a>
