@@ -14,8 +14,9 @@ __Topic 2 - [Machine learning](#ml)__
 
 __Topic 3 - [Tabular data](#tbd)__
 - [2019 Model: NODE -  Neural oblivious decision ensemble for deep learning on tabular data](#tbd_1)
-- [2024 Model: GANDE - Gradient-based decision tree ensembles for tabular data](#tbd_2)
-- [2024 Model: GANDALF - Gated adaptive network for deep automated learning of features for tabular data](#tnd_3)
+- [2023 Model: GradTree - ](#tbd_2)
+- [2024 Model: GANDE - Gradient-based decision tree ensembles for tabular data](#tbd_3)
+- [2024 Model: GANDALF - Gated adaptive network for deep automated learning of features for tabular data](#tnd_4)
 
 
 __Topic 10 - [Recommendation systems](#rec)__
@@ -53,11 +54,16 @@ __Entmax__ is a family of transformations that generalize softmax and sparsemax.
   - $\alpha$ = 2 → sparsemax
   - $\alpha$ = 1.5 → commonly used in NODE for a balance between smoothness and sparsity
 
-
-
-
-
+[__Implementation__]()
 
 ---
+## <a name = 'tbd_2'>[Paper 2 - GradTree](#up)</a>
+
+---
+
+## <a name = 'tbd_3'>[Paper 3 - GANDE: Gradient-based decision tree ensembles for tabular data](#up)</a>
+
+This paper extend the GradTree (Marton et al 2023) from individual trees to end-to-end gradient-based ensemble model. Authors also propose _softsign_ as a differentiable split function in their model.
+
 ---
 
