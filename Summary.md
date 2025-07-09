@@ -13,11 +13,12 @@ __Topic 2 - [Machine learning](#ml)__
 - [](#ml_1)
 
 __Topic 3 - [Tabular data](#tbd)__
-- [2019 Model: NODE -  Neural oblivious decision ensemble for deep learning on tabular data](#tbd_1)
+- [2019 Model: NODE - Neural oblivious decision ensemble for deep learning on tabular data](#tbd_1)
 - [2023 Model: GradTree - ](#tbd_2)
 - [2024 Model: GANDE - Gradient-based decision tree ensembles for tabular data](#tbd_3)
 - [2024 Model: GANDALF - Gated adaptive network for deep automated learning of features for tabular data](#tbd_4)
-- [2022 Why do tree-based models still outperform deep learning on tabular data](#tbd_5)
+- [2022 - Why do tree-based models still outperform deep learning on tabular data](#tbd_5)
+- [2020 - Model evaluation, model selection, and algorithm selection in machine learning](#tbd_6)
 
 
 __Topic 10 - [Recommendation systems](#rec)__
