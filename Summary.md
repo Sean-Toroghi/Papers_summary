@@ -42,7 +42,15 @@ It results in a trainable end-to-end model that could use backpropagation, simil
 
 __NODE architecture__
 
-NODE cosists of several blocks of e
+NODE consists of mu;ltiple layers, each consists of:
+- blocks of differentiable oblivious decision trees, and
+- a transformation called entmax, which softly selects features for splitting.
+
+__Entmax__ is a family of transformations that generalize softmax and sparsemax. It maps real-valued inputs into a probability distribution—just like softmax—but with controllable sparsity.
+- Softmax: Always outputs dense probabilities (all values > 0).
+- Sparsemax: Can output exact zeros, leading to sparse distributions.
+- Entmax: Interpolates between the two, controlled by a parameter α (alpha).
+
 
 
 
