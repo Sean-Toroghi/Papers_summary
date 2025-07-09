@@ -39,17 +39,19 @@ NODE generalized that idea by making the following two differentiable:
 - routing through the trees
 It results in a trainable end-to-end model that could use backpropagation, similar to deep neural networks.
 
+Oblivious Decision Trees (ODTs) is a regular tree of depth d that is constrained to use the same splitting feature and splitting threshold in all internal nodes of the same depth. This constraint essentially allows representing an ODT as a table with 2d entries, corresponding to all possible combinations of d splits.
 
-__NODE architecture__
 
-NODE consists of mu;ltiple layers, each consists of:
-- blocks of differentiable oblivious decision trees, and
-- a transformation called entmax, which softly selects features for splitting.
+
+__NODE architecture__  consists of densely connected NODE layers. Each layer contains several trees whose outputs are concatenated and serve as input for the subsequent layer. The final prediction is obtained by averaging the outputs of all trees from all the layers.
 
 __Entmax__ is a family of transformations that generalize softmax and sparsemax. It maps real-valued inputs into a probability distribution—just like softmax—but with controllable sparsity.
 - Softmax: Always outputs dense probabilities (all values > 0).
 - Sparsemax: Can output exact zeros, leading to sparse distributions.
 - Entmax: Interpolates between the two, controlled by a parameter α (alpha).
+  - $\alpha$ = 1 → softmax
+  - $\alpha$ = 2 → sparsemax
+  - $\alpha$ = 1.5 → commonly used in NODE for a balance between smoothness and sparsity
 
 
 
