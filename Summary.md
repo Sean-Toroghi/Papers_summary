@@ -17,6 +17,7 @@ __Topic 3 - [Tabular data](#tbd)__
 - [2023 Model: GradTree - ](#tbd_2)
 - [2024 Model: GANDE - Gradient-based decision tree ensembles for tabular data](#tbd_3)
 - [2024 Model: GANDALF - Gated adaptive network for deep automated learning of features for tabular data](#tnd_4)
+- [2022 Why do tree-based models still outperform deep learning on tabular data](#tnd_5)
 
 
 __Topic 10 - [Recommendation systems](#rec)__
@@ -59,6 +60,7 @@ __Entmax__ is a family of transformations that generalize softmax and sparsemax.
 ---
 ## <a name = 'tbd_2'>[Paper 2 - GradTree](#up)</a>
 
+In GradTree, DTs are formulated as arithmetic functions based on addition and multiplication to facilitate gradient-based learning.
 ---
 
 ## <a name = 'tbd_3'>[Paper 3 - GANDE: Gradient-based decision tree ensembles for tabular data](#up)</a>
@@ -66,4 +68,9 @@ __Entmax__ is a family of transformations that generalize softmax and sparsemax.
 This paper extend the GradTree (Marton et al 2023) from individual trees to end-to-end gradient-based ensemble model. Authors also propose _softsign_ as a differentiable split function in their model.
 
 ---
+
+## <a name = 'tbd_4'>[Paper 4 - GANDALF - Gated adaptive network for deep automated learning of features for tabular dataa](#up)</a>
+
+## <a name = 'tbd_5'>[Paper 5 - Why do tree-based models still outperform deep learning on tabular data](#up)</a>
+
 
