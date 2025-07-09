@@ -6,14 +6,16 @@ This depository is organized by the project topic or field topic.
 
 ## Table of contents
 
-__Topic 1 - [Deep learning](#rna)__
-- [2023  RNA3DStructure Prediction: Progress and Perspective](#dl)
+__Topic 1 - [Deep learning](#dl)__
+- [](#dl_1)
 
-__Topic 2 - [Machine learning](#rna)__
-- [2023  RNA3DStructure Prediction: Progress and Perspective](#ml)
+__Topic 2 - [Machine learning](#ml)__
+- [](#ml_1)
 
 __Topic 3 - [Tabular data](#tbd)__
-- [2023  RNA3DStructure Prediction: Progress and Perspective](#rna_1)
+- [2019 Model: NODE -  Neural oblivious decision ensemble for deep learning on tabular data](#tbd_1)
+- [204 Model: GANDALE -  ](#tbd_2)
+
 
 __Topic 10 - [RNA structure](#rna)__
 - [2023  RNA3DStructure Prediction: Progress and Perspective](#rna_1)
@@ -23,6 +25,7 @@ __Topic 10 - [RNA structure](#rna)__
 # <a name = 'tbd'>[Tabular data](#up)</a>
 Tabular heterogeneous data is a frequent hurdle in data science. For these datasets, ensemble methods built from multiple shallow models, like gradient-boosted decision trees, are typically the most effective. This section provides an overview of some current state-of-the-art (SOTA) approaches.
 
+## <a name = 'tbd_1'>[Paper 1 - RNA3DStructure Prediction: Progress and Perspective](#up)</a>
 
 
 
