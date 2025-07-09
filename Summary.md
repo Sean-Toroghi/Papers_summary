@@ -25,7 +25,8 @@ __Topic 10 - [RNA structure](#rna)__
 # <a name = 'tbd'>[Tabular data](#up)</a>
 Tabular heterogeneous data is a frequent hurdle in data science. For these datasets, ensemble methods built from multiple shallow models, like gradient-boosted decision trees, are typically the most effective. This section provides an overview of some current state-of-the-art (SOTA) approaches.
 
-## <a name = 'tbd_1'>[Paper 1 - RNA3DStructure Prediction: Progress and Perspective](#up)</a>
+## <a name = 'tbd_1'>[Paper 1 - NDOE - Neural oblivious decision ensemble for deep learning on tabular data](#up)</a>
+NODE architecture generalizes ensembles of oblivious decision trees, but benefits from both end-to-end gradient-based optimization and the power of multi-layer hierarchical representation learning. 
 
 
 
