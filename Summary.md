@@ -34,7 +34,10 @@ NODE took the idea of oblivious decision trees from CatBoost, in which:
 - Every node at the same depth uses the same feature and threshold to split.
 - The tree structure is fixed and non-differentiable, meaning you can't train it using gradient descent like neural networks.
 
-In NODE, by making the choice of splitting feature and the routing through the tree differentiable, could generalize that idea. It makes the NODE trainable end-to-end by using backpropagation, similar to deep neural networks.
+NODE generalized that idea by making the following two differentiable:
+- choice of splitting feature and
+- routing through the trees
+It results in a trainable end-to-end model that could use backpropagation, similar to deep neural networks.
 
 
 __NODE architecture__
