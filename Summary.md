@@ -14,8 +14,8 @@ __Topic 2 - [Machine learning](#ml)__
 
 __Topic 3 - [Tabular data](#tbd)__
 - [2019 Model: NODE -  Neural oblivious decision ensemble for deep learning on tabular data](#tbd_1)
-- [2024 Model: GANDALE -  ](#tbd_2)
-- [2024 Model: GANDOLF - ](#tnd_3)
+- [2024 Model: GANDE - Gradient-based decision tree ensembles for tabular data](#tbd_2)
+- [2024 Model: GANDALF - Gated adaptive network for deep automated learning of features for tabular data](#tnd_3)
 
 
 __Topic 10 - [Recommendation systems](#rec)__
