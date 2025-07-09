@@ -5,8 +5,28 @@ Objective: quick reference to the papers and a short summary of their findings.
 This depository is organized by the project topic or field topic.
 
 ## Table of contents
-__Topic 1 - [RNA structure](#rna)__
+
+__Topic 1 - [Deep learning](#rna)__
+- [2023  RNA3DStructure Prediction: Progress and Perspective](#dl)
+
+__Topic 2 - [Machine learning](#rna)__
+- [2023  RNA3DStructure Prediction: Progress and Perspective](#ml)
+
+__Topic 3 - [Tabular data](#tbd)__
 - [2023  RNA3DStructure Prediction: Progress and Perspective](#rna_1)
+
+__Topic 10 - [RNA structure](#rna)__
+- [2023  RNA3DStructure Prediction: Progress and Perspective](#rna_1)
+
+---
+
+# <a name = 'tbd'>[Tabular data](#up)</a>
+Tabular heterogeneous data is a frequent hurdle in data science. For these datasets, ensemble methods built from multiple shallow models, like gradient-boosted decision trees, are typically the most effective. This section provides an overview of some current state-of-the-art (SOTA) approaches.
+
+
+
+
+
 
 ---
 # <a name = 'rna'>[RNA structure](#up)</a>
