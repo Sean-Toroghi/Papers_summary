@@ -14,34 +14,37 @@ __Topic 2 - [Machine learning](#ml)__
 
 __Topic 3 - [Tabular data](#tbd)__
 - [2019 Model: NODE -  Neural oblivious decision ensemble for deep learning on tabular data](#tbd_1)
-- [204 Model: GANDALE -  ](#tbd_2)
+- [2024 Model: GANDALE -  ](#tbd_2)
+- [2024 Model: GANDOLF - ](#tnd_3)
 
 
-__Topic 10 - [RNA structure](#rna)__
-- [2023  RNA3DStructure Prediction: Progress and Perspective](#rna_1)
+__Topic 10 - [Recommendation systems](#rec)__
+- [](#rec_1)
 
 ---
 
 # <a name = 'tbd'>[Tabular data](#up)</a>
 Tabular heterogeneous data is a frequent hurdle in data science. For these datasets, ensemble methods built from multiple shallow models, like gradient-boosted decision trees, are typically the most effective. This section provides an overview of some current state-of-the-art (SOTA) approaches.
 
+
 ## <a name = 'tbd_1'>[Paper 1 - NDOE - Neural oblivious decision ensemble for deep learning on tabular data](#up)</a>
 NODE architecture generalizes ensembles of oblivious decision trees, but benefits from both end-to-end gradient-based optimization and the power of multi-layer hierarchical representation learning. 
+
+NODE took the idea of oblivious decision trees from CatBoost, in which:
+- Every node at the same depth uses the same feature and threshold to split.
+- The tree structure is fixed and non-differentiable, meaning you can't train it using gradient descent like neural networks.
+
+In NODE, by making the choice of splitting feature and the routing through the tree differentiable, could generalize that idea. It makes the NODE trainable end-to-end by using backpropagation, similar to deep neural networks.
+
+
+__NODE architecture__
+
+NODE cosists of several blocks of e
 
 
 
 
 
 ---
-# <a name = 'rna'>[RNA structure](#up)</a>
-The 3d-structure of RNA defines the functionality of RNA. There are a range of methods to explore and idenitify this structure, including experimental (X-ray crystallography, nuclear magnetic resonance spectroscopy, and cryo-electron microscopy),  computational models. The computational methods are divided into three categories, based on their objective tasks:
-1. predicting 3D structure of RNA - three broad methods: knowledge-, physics-, and deep learning- based.
-2. identify near-native structures - some type of scoring or energy function model to evaluate structures and idntify most probable ones. Methods are generally categorized into following four: physics-based energy methods, knowledge-based statistical methods, deep-learning scoring mehods, and clsutering methods.  
-3. refining identified near-native structures
-
-## <a name = 'rna_1'>[Paper 1 - RNA3DStructure Prediction: Progress and Perspective](#up)</a>
-
-
-
-## <a name = 'rna_2up'>[Paper 2 -](#up)</a>
+---
 
